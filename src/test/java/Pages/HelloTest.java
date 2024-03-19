@@ -19,7 +19,7 @@ public class HelloTest  {
         driver = new ChromeDriver(chromeOptions);
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
-        assertTrue(driver.getTitle().contains("Google"));
+        assertTrue(driver.getTitle().contains("Gooooooogle"));
         helloPage=new HelloPage(driver);
         helloPage.print();
         driver.quit();
