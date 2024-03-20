@@ -3,7 +3,7 @@ package Pages;
 import org.openqa.selenium.WebDriver;
 
 public class HelloPage {
-    private WebDriver driver;
+     WebDriver driver;
     public HelloPage(WebDriver driver) {
         this.driver=driver;
     }
